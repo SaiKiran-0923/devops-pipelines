@@ -1,7 +1,8 @@
 name : CI PIPELINE
 
 on:
-  branches: [ main ]
+  push:
+    branches: [ main ]
 
 jobs:
   build:
